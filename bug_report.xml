@@ -1,1 +1,15 @@
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <summary>INCORRECT DATA - NO NOTIFICATION</summary>
+  <project>mail</project>
+  <component>registration</component>
+  <Version>1</Version>
+  <severity>major</severity>
+  <priority>medium</priority>
+  <status>new</status>
+  <author>samusik alesia</author>
+  <result>no request to fill in the password field</result>
+  <assigned_to>ptichkin stepan</assigned_to>
+  <steps_to_reproduce>open page http://gmail.com/enter email address/without entering a password, press the login button</steps_to_reproduce>
+  <expected_result>an alert appears asking you to enter your password</expected_result>
+</root>
